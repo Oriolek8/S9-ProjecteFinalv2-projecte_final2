@@ -1,7 +1,9 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import {GeneralEstils, ImgEstils, H3Estils, PEstils} from './PerfilEstils';
+
 export const Perfil = () => {
 const {user, isAuthenticated} = useAuth0();
+
     return(
         isAuthenticated &&(
         <GeneralEstils>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import R from './App';
 import { Auth0Provider } from "@auth0/auth0-react";
 
 
@@ -13,7 +13,7 @@ root.render(
       clientId="xdiko11ZbMaSfZSDkHgJSrC3lvflUnOY"
       redirectUri={window.location.origin + process.env.PUBLIC_URL + '/'}
     >
-        <App />
+        <R />
      
     </Auth0Provider>,
     

@@ -5,6 +5,7 @@ import {GeneralEstils, CuadratEstils,BoxesEstils, SubTitulEstils, ImgEstils} fro
 import { Link } from 'react-router-dom';
 
 import Footer from "../Footer/Footer";
+import NavBar from "../Navbar/Navbar";
 
 
 const Criptomonedes = () => {
@@ -47,7 +48,7 @@ const Criptomonedes = () => {
         
         <>
         <GeneralEstils>
-
+          <NavBar />
             <h1>Llistat Top 25 Criptos</h1>
               <SubTitulEstils> Dale click para más información</SubTitulEstils>
             <BoxesEstils>
